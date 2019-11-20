@@ -1,3 +1,6 @@
+#ifndef STACK_H
+#define STACK_H
+
 #define MAX_STACK_SIZE 3
 
 class Stack
@@ -17,4 +20,4 @@ class Stack
 		int top;
 };
 
-
+#endif

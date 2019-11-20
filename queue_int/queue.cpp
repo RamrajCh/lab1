@@ -50,7 +50,7 @@ int Queue::dequeue()
 
 int Queue::front_val()
 {
-		if(!isEmpty())
+	if(!isEmpty())
 	{
 		int val=front+1;
 		return elements[val];	
@@ -64,7 +64,7 @@ int Queue::front_val()
 
 int Queue::rear_val()
 {
-		if(!isEmpty())
+	if(!isEmpty())
 	{
 		return elements[rear];	
 	}

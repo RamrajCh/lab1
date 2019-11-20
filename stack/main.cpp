@@ -13,6 +13,6 @@ int main()
 	s.push(7);
 	s.push(4);
 	
-	cout<<s.top();
+	cout<<s.top_val();
 		
 }
